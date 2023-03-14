@@ -1,0 +1,31 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter please a number (2 value): ");
+        int a = scanner.nextInt();
+
+        System.out.println(a/3);
+        System.out.println(a%3);
+
+        int tmp1 = a/3;
+        int tmp1_ = a%3;
+
+        int tmp2 = tmp1/ 3;
+        int tmp2_ = tmp1%3;
+
+        int tmp3 = tmp2/3;
+        int tmp3_ = tmp2%3;
+
+        System.out.println(tmp3_ + " " + tmp2_ + " " + tmp1_);
+
+//        System.out.println(tmp1/3);
+//        System.out.println(tmp1_%3);
+
+
+
+    }
+}
