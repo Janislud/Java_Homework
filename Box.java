@@ -13,43 +13,32 @@ public class Box {
         this.length = length;
         this.high = high;
         this.width = width;
-
-        System.out.println(length);
-        System.out.println(high);
-        System.out.println(width);
+        print();
     }
 
     public Box (int length,int high){
         this.length = length;
         this.high = high;
         width = 100;
-
-        System.out.println(length);
-        System.out.println(high);
-        System.out.println(width);
-
+        print();
     }
 
     public Box (int length){
         this.length = length;
         high = high;
         width = 100;
-
-        System.out.println(length);
-        System.out.println(high);
-        System.out.println(width);
+        print();
     }
 
     public Box (){
         length = 33;
         high = 33;
         width = 33;
+        print();
+    }
 
-        System.out.println(length);
-        System.out.println(high);
-        System.out.println(width);
-
-
+    public void print() {
+        System.out.println("length=" + length + ", high=" + high + ", width=" + width);
     }
 
 
