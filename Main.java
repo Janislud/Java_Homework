@@ -1,19 +1,13 @@
 package org.example;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-
-
-        String a = "Hello, Java! It's a Java Basic course";
-        System.out.println(a);
-        System.out.println(a.length());
-        char q =33;
-        System.out.println(q);
-        System.out.println(a.substring(13,25));
-        System.out.println(a.substring(20));
-
-
-
+        org.example.Box Box1 = new Box(100,100,100);
+        org.example.Box Box2 = new Box(80,80);
+        org.example.Box Box3 = new Box(50);
+        org.example.Box Box4 = new Box();
 
 
     }
